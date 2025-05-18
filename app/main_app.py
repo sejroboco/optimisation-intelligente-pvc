@@ -11,7 +11,7 @@ def init_app():
     
     # Charger les données une seule fois
     if 'villes' not in st.session_state:
-        st.session_state.villes = charger_villes("D:/DataScientistAccompli/projets/optimisation-intelligente-pvc/data/villes_france.csv")
+        st.session_state.villes = charger_villes("../data/villes_france.csv")
     
     # CSS personnalisé
     with open("app/assets/styles.css") as f:
