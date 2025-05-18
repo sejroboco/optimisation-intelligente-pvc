@@ -19,7 +19,7 @@ def show():
         le chemin optimal pour parcourir des villes sélectionnées.
         """)
         
-        st.image("app/assets/images/carte_france.jpg", use_container_width=True)
+        st.image("app/assets/images/carte_france.jpg", width=None)
     
     with col2:
         st.info("""
