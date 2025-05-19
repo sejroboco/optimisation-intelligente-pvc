@@ -43,7 +43,7 @@ def show():
     coords.append(coords[0])  # Bouclage
     folium.PolyLine(coords, color="green", weight=2.5, opacity=1).add_to(m)
     
-    st_folium(m, width=1000, height=400)
+    st_folium(m, width=1200, height=500)
     
     # Détails textuels
     with st.expander("Voir l'itinéraire détaillé"):
