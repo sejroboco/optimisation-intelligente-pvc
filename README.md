@@ -12,6 +12,6 @@ Ce projet implémente une solution au **problème du voyageur de commerce** (Tra
 
 ---
 
-## Auteur :
+## 🧑‍💻 Auteur :
 
 Sèjro Toussaint Boco
